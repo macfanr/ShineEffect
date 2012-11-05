@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B48E13816475E4A00458391 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B48E13716475E4A00458391 /* Cocoa.framework */; };
+		6B48E14216475E4A00458391 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B48E14016475E4A00458391 /* InfoPlist.strings */; };
+		6B48E14416475E4A00458391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B48E14316475E4A00458391 /* main.m */; };
+		6B48E14816475E4A00458391 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6B48E14616475E4A00458391 /* Credits.rtf */; };
+		6B48E14B16475E4A00458391 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B48E14A16475E4A00458391 /* AppDelegate.m */; };
+		6B48E14E16475E4A00458391 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B48E14C16475E4A00458391 /* MainMenu.xib */; };
+		6B48E15716475F4D00458391 /* NSObject+ShineEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B48E15616475F4D00458391 /* NSObject+ShineEffect.m */; };
+		6B48E15916475F9700458391 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B48E15816475F9700458391 /* QuartzCore.framework */; };
+		6B48E15B1647678C00458391 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B48E15A1647678C00458391 /* image4.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B48E13316475E4A00458391 /* ShineEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShineEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B48E13716475E4A00458391 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6B48E13A16475E4A00458391 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6B48E13B16475E4A00458391 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6B48E13C16475E4A00458391 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B48E13F16475E4A00458391 /* ShineEffect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShineEffect-Info.plist"; sourceTree = "<group>"; };
+		6B48E14116475E4A00458391 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B48E14316475E4A00458391 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B48E14516475E4A00458391 /* ShineEffect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShineEffect-Prefix.pch"; sourceTree = "<group>"; };
+		6B48E14716475E4A00458391 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6B48E14916475E4A00458391 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B48E14A16475E4A00458391 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B48E14D16475E4A00458391 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6B48E15516475F4D00458391 /* NSObject+ShineEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ShineEffect.h"; sourceTree = "<group>"; };
+		6B48E15616475F4D00458391 /* NSObject+ShineEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ShineEffect.m"; sourceTree = "<group>"; };
+		6B48E15816475F9700458391 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6B48E15A1647678C00458391 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B48E13016475E4A00458391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B48E15916475F9700458391 /* QuartzCore.framework in Frameworks */,
+				6B48E13816475E4A00458391 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B48E12816475E4A00458391 = {
+			isa = PBXGroup;
+			children = (
+				6B48E13D16475E4A00458391 /* ShineEffect */,
+				6B48E13616475E4A00458391 /* Frameworks */,
+				6B48E13416475E4A00458391 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B48E13416475E4A00458391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B48E13316475E4A00458391 /* ShineEffect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B48E13616475E4A00458391 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B48E13716475E4A00458391 /* Cocoa.framework */,
+				6B48E13916475E4A00458391 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B48E13916475E4A00458391 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B48E13A16475E4A00458391 /* AppKit.framework */,
+				6B48E13B16475E4A00458391 /* CoreData.framework */,
+				6B48E13C16475E4A00458391 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6B48E13D16475E4A00458391 /* ShineEffect */ = {
+			isa = PBXGroup;
+			children = (
+				6B48E14916475E4A00458391 /* AppDelegate.h */,
+				6B48E14A16475E4A00458391 /* AppDelegate.m */,
+				6B48E15516475F4D00458391 /* NSObject+ShineEffect.h */,
+				6B48E15616475F4D00458391 /* NSObject+ShineEffect.m */,
+				6B48E14C16475E4A00458391 /* MainMenu.xib */,
+				6B48E13E16475E4A00458391 /* Supporting Files */,
+			);
+			path = ShineEffect;
+			sourceTree = "<group>";
+		};
+		6B48E13E16475E4A00458391 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B48E15816475F9700458391 /* QuartzCore.framework */,
+				6B48E15A1647678C00458391 /* image4.jpg */,
+				6B48E13F16475E4A00458391 /* ShineEffect-Info.plist */,
+				6B48E14016475E4A00458391 /* InfoPlist.strings */,
+				6B48E14316475E4A00458391 /* main.m */,
+				6B48E14516475E4A00458391 /* ShineEffect-Prefix.pch */,
+				6B48E14616475E4A00458391 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B48E13216475E4A00458391 /* ShineEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B48E15116475E4A00458391 /* Build configuration list for PBXNativeTarget "ShineEffect" */;
+			buildPhases = (
+				6B48E12F16475E4A00458391 /* Sources */,
+				6B48E13016475E4A00458391 /* Frameworks */,
+				6B48E13116475E4A00458391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShineEffect;
+			productName = ShineEffect;
+			productReference = 6B48E13316475E4A00458391 /* ShineEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B48E12A16475E4A00458391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Xu Jun";
+			};
+			buildConfigurationList = 6B48E12D16475E4A00458391 /* Build configuration list for PBXProject "ShineEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B48E12816475E4A00458391;
+			productRefGroup = 6B48E13416475E4A00458391 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B48E13216475E4A00458391 /* ShineEffect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B48E13116475E4A00458391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B48E14216475E4A00458391 /* InfoPlist.strings in Resources */,
+				6B48E14816475E4A00458391 /* Credits.rtf in Resources */,
+				6B48E14E16475E4A00458391 /* MainMenu.xib in Resources */,
+				6B48E15B1647678C00458391 /* image4.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B48E12F16475E4A00458391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B48E14416475E4A00458391 /* main.m in Sources */,
+				6B48E14B16475E4A00458391 /* AppDelegate.m in Sources */,
+				6B48E15716475F4D00458391 /* NSObject+ShineEffect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B48E14016475E4A00458391 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B48E14116475E4A00458391 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B48E14616475E4A00458391 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B48E14716475E4A00458391 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6B48E14C16475E4A00458391 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B48E14D16475E4A00458391 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B48E14F16475E4A00458391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6B48E15016475E4A00458391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6B48E15216475E4A00458391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShineEffect/ShineEffect-Prefix.pch";
+				INFOPLIST_FILE = "ShineEffect/ShineEffect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B48E15316475E4A00458391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShineEffect/ShineEffect-Prefix.pch";
+				INFOPLIST_FILE = "ShineEffect/ShineEffect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B48E12D16475E4A00458391 /* Build configuration list for PBXProject "ShineEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B48E14F16475E4A00458391 /* Debug */,
+				6B48E15016475E4A00458391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B48E15116475E4A00458391 /* Build configuration list for PBXNativeTarget "ShineEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B48E15216475E4A00458391 /* Debug */,
+				6B48E15316475E4A00458391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B48E12A16475E4A00458391 /* Project object */;
+}
